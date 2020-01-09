@@ -1,0 +1,9 @@
+a:link{
+    color: blue;
+    background-color: cornflowerblue;
+}
+
+a:active{
+    color: darkblue;
+    background-color: darkorchid;
+}
