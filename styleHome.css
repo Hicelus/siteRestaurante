@@ -7,17 +7,18 @@
 }
 
 .estilo img{
-    margin: 100px;
-    width: 500px;
-    height: 500px;
+    margin: 5%;
+    width: 25%;
+    height: auto;
     border-radius: 50px;
 }
 
 .estilo p{
-    max-width: 50%;
+    width: 50%;
     font-family: "Segoe Print";
     font-size: 25px;
-    margin: 100px;
+    margin: 5%;
+    font-weight: bold;
 }
 
 #fundo{
