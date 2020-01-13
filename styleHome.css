@@ -14,9 +14,10 @@
 }
 
 .estilo p{
-    width: 50%;
+    
+    max-width: 50%;
     font-family: "Segoe Print";
-    font-size: 25px;
+    font-size: 20px;
     margin: 5%;
     font-weight: bold;
 }

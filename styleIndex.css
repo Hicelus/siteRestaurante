@@ -16,12 +16,12 @@ body{
 }
 
 .menus{
-    font-size: 50px;
+    font-size: 30px;
     font-family: "Monotype Corsiva";
     background-color: rgb(254,202,180);
     padding-left: 50px;
     padding-right: 50px;
-    margin: 10px;
+    margin: 5px;
     border-radius: 30px;
     text-decoration: none; 
 }
@@ -35,5 +35,5 @@ body{
 iframe{
     border-radius: 50px;
     background-color: #FECAB4;
-    height: 6000px;
+    height: 1800px;
 }
