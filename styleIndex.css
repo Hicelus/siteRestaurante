@@ -9,7 +9,6 @@ body{
 }
 
 #barraMenu{
-    color: silver;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -24,11 +23,17 @@ body{
     padding-right: 50px;
     margin: 10px;
     border-radius: 30px;
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 .menus:hover{
     color: white;
     background-color: black;
     text-decoration: none;
+}
+
+iframe{
+    border-radius: 50px;
+    background-color: #FECAB4;
+    height: 6000px;
 }

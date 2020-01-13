@@ -1,0 +1,30 @@
+.direita{
+    float: right;
+}
+
+.esquerda{
+    float: left;
+}
+
+.estilo img{
+    margin: 100px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+}
+
+.estilo p{
+    max-width: 50%;
+    font-family: "Segoe Print";
+    font-size: 25px;
+    margin: 100px;
+}
+
+#fundo{
+    width: 80%;
+    opacity: 0.5;
+    position: absolute;
+    right: 10%;
+    top: 0px;
+    z-index: -1;
+}
