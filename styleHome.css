@@ -1,32 +1,55 @@
-.direita{
-    float: right;
+#ele1{
+    float: left;
+    margin: 25px; 
 }
 
-.esquerda{
+#ele2{
+    clear: right;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#ele3{
     float: left;
+    width: 70%;
+    margin-left: 50px;
+}
+
+#ele4{
+    clear: right;
+}
+
+#ele5{
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#ele6{
+    padding: 50px;
+    
 }
 
 .estilo img{
-    margin: 5%;
-    width: 25%;
+    width: 300px;
     height: auto;
     border-radius: 50px;
 }
 
 .estilo p{
-    
-    max-width: 50%;
     font-family: "Segoe Print";
     font-size: 20px;
-    margin: 5%;
     font-weight: bold;
 }
 
 #fundo{
-    width: 80%;
-    opacity: 0.5;
+    width: 100%;
+    opacity: 0.3;
     position: absolute;
-    right: 10%;
+    right: 0%;
     top: 0px;
     z-index: -1;
+    max-height: 1400px;
 }
