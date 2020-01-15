@@ -1,3 +1,26 @@
-form{
-    border: 2px solid black;
+legend{
+    font-size: 30px;
+}
+
+textarea{
+    width: 342px;
+    height: 50px;
+}
+
+#caixa
+{
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#fundo{
+    width: 100%;
+    opacity: 0.3;
+    position: absolute;
+    right: 0%;
+    top: 0px;
+    z-index: -1;
+    height: 1400px;
 }

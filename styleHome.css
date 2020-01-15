@@ -5,7 +5,7 @@
 
 #ele2{
     clear: right;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 150px;
     padding-left: 50px;
     padding-right: 50px;
@@ -39,9 +39,8 @@
 }
 
 .estilo p{
-    font-family: "Segoe Print";
-    font-size: 20px;
-    font-weight: bold;
+    font-family: "Brush Script MT";
+    font-size: 35px;
 }
 
 #fundo{
@@ -51,5 +50,5 @@
     right: 0%;
     top: 0px;
     z-index: -1;
-    height: 1300px;
+    height: 1400px;
 }

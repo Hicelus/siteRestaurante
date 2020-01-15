@@ -7,27 +7,35 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="deliveryStyle.css">
 		
 	</head>
 	
 	<body>
-		<form action="" method="post" name="pedido">
-			<fieldset name="campoPedido">
-				<legend>Pedido</legend>
-				<label>Nome: </label>
-				<input type="text" name="tNome"><br>
-				<label>Endereço: </label>
-				<input type="text" name="tEndereco"><br>
-				<label>Telefone: </label>
-				<input type="text" name="tTelefone"><br>
-				<label>Pagamento: </label><br>
-				<input type="radio" name="pag" value="credito" id="cred"><label for="cred">Crédito</label>
-				<input type="radio" name="pag" value="debito" id="deb"><label for="deb">Débito</label>
-				<input type="radio" name="pag" value="dinheiro" id="din"><label for="din">Dinheiro</label><br>
-				<input type="checkbox" name="ckb" value="troco" id="troc"><label for="troc">Troco?</label><br>
-				<textarea></textarea>
-			</fieldset>
-		</form>
+		<div id="caixa">
+			<form action="" method="post" name="pedido">
+				<fieldset name="campoPedido">
+					<legend>Pedido</legend>
+					<label>Nome: </label><br>
+					<input type="text" name="tNome" maxlength="45" size="45"><br>
+					<label>Endereço: </label><br>
+					<input type="text" name="tEndereco" maxlength="45" size="45"><br>
+					<label>Telefone: </label><br>
+					<input type="text" name="tTelefone" maxlength="45" size="45"><br>
+					<label>Pedido: </label><br>
+					<textarea></textarea><br>
+					<label>Pagamento: </label><br>
+					<input type="radio" name="pag" value="credito" id="cred"><label for="cred">Crédito</label>
+					<input type="radio" name="pag" value="debito" id="deb"><label for="deb">Débito</label>
+					<input type="radio" name="pag" value="dinheiro" id="din"><label for="din">Dinheiro</label><br>
+					<input type="checkbox" name="ckb" value="troco" id="troc"><label for="troc">Troco?</label><br>
+				</fieldset>
+			</form>
+
+			<div id="f">
+				<img src="img/fundo.jpg" id="fundo">
+			</div>
+			
+		</div>
 	</body>
 </html>

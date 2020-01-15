@@ -16,3 +16,13 @@ body{
     font-size: 20px;
     font-family: "Segoe Print";
 }
+
+#fundo{
+    width: 100%;
+    opacity: 0.3;
+    position: absolute;
+    right: 0%;
+    top: 0px;
+    z-index: -1;
+    height: 1400px;
+}
