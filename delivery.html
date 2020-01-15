@@ -12,36 +12,22 @@
 	</head>
 	
 	<body>
-	
-		<h1>Delivery<h1>
-		<form action="http://www.google.com" method="post" name="formDelivery">
-		<fieldset name="campoPedido">
-			<legend>Pedido</legend>
-			<p>Faça seu pedido</p>
-			<p>Nome:
-			<input type="text" name="nome" maxlength="45" size="45" placeholder="Nome" style="font-size:22px;"><br>
-			<input type="checkbox" name="lanche" value="lanche">Lanche
-			<select name="lanches" size="3">
-				<optgroup label="1">
-					<option value="x-burguer">X-Burguer</option>
-					<option value="x-bacon">X-Bacon</option>
-				</optgroup>
-				<optgroup label="2">
-					<option value="x-egg">X-Egg</option>
-					<option value="x-tudo">X-Tudo</option>
-				</optgroup>
-			</select>
-			<br>
-			<input type="checkbox" name="fritas" value="fritas">Fritas<br>
-			<input type="checkbox" name="bebida" value="bebida">Lanche<br>
-			<input type="checkbox" name="lanche" value="molho">Molho<br>
-			<input type="radio" name="pedido" value="entrega" id="entrega"><label for="entrega">Entrega</label><br> 
-			<input type="radio" name="pedido" value="retirada" id="retirada"><label for="retirada">Retirada</label><br>
-			<textarea name="observacao" placeholder="Observa&#231&#245es"></textarea><br>
-			<input type="reset" name="limpar" value="Limpar">
-			<input type="submit" name="submeter" value="Confirmar">
-			<input type="image" src="imagens/confirm.png" alt="submit">
-			</p>
-		</fieldset>
+		<form action="" method="post" name="pedido">
+			<fieldset name="campoPedido">
+				<legend>Pedido</legend>
+				<label>Nome: </label>
+				<input type="text" name="tNome"><br>
+				<label>Endereço: </label>
+				<input type="text" name="tEndereco"><br>
+				<label>Telefone: </label>
+				<input type="text" name="tTelefone"><br>
+				<label>Pagamento: </label><br>
+				<input type="radio" name="pag" value="credito" id="cred"><label for="cred">Crédito</label>
+				<input type="radio" name="pag" value="debito" id="deb"><label for="deb">Débito</label>
+				<input type="radio" name="pag" value="dinheiro" id="din"><label for="din">Dinheiro</label><br>
+				<input type="checkbox" name="ckb" value="troco" id="troc"><label for="troc">Troco?</label><br>
+				<textarea></textarea>
+			</fieldset>
+		</form>
 	</body>
 </html>
