@@ -17,14 +17,4 @@ function instruir(opcao){
         case 2: mensagem.innerHTML = "PEDIDO: Insira seu Endereço:"; break;
         case 3: mensagem.innerHTML = "Pedido"; break;
     }
-
-
-    /*
-    if(opcao == 1 ){
-        mensagem.innerHTML = "PEDIDO: Insira seu nome:";
-    }
-    else if(opcao == 2){
-        mensagem.innerHTML = "PEDIDO: Insira seu endereço:";
-    }
-    */
 }
